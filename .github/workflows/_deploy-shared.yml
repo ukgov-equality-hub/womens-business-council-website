@@ -1,0 +1,45 @@
+name: '(shared functionality) Terraform'
+
+on:
+  workflow_call:
+    inputs:
+      TERRAFORM_STATE_BUCKET:
+        required: true
+        type: string
+      TERRAFORM_STATE_FILE:
+        required: true
+        type: string
+      TERRAFORM_TFVARS_FILE:
+        required: true
+        type: string
+    secrets:
+      TERRAFORM_AWS_ACCESS_KEY_ID:
+        required: true
+      TERRAFORM_AWS_SECRET_ACCESS_KEY:
+        required: true
+
+env:
+  AWS_ACCESS_KEY_ID: ${{ secrets.TERRAFORM_AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.TERRAFORM_AWS_SECRET_ACCESS_KEY }}
+  AWS_DEFAULT_REGION: eu-west-2
+
+jobs:
+  terraform:
+    name: 'Terraform'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Checkout Code'
+        uses: actions/checkout@v3
+
+      - name: 'Init Terraform'
+        run: |
+          terraform init "-backend-config=bucket=${{ inputs.TERRAFORM_STATE_BUCKET }}" "-backend-config=key=${{ inputs.TERRAFORM_STATE_FILE }}" "-backend-config=region=${{ env.AWS_DEFAULT_REGION }}" "-backend-config=access_key=${{ secrets.TERRAFORM_AWS_ACCESS_KEY_ID }}" "-backend-config=secret_key=${{ secrets.TERRAFORM_AWS_SECRET_ACCESS_KEY }}"
+        working-directory: ./terraform
+
+      - name: 'Apply Terraform changes'
+        run: |
+          terraform apply \
+          -var-file "${{ inputs.TERRAFORM_TFVARS_FILE }}" \
+          -auto-approve
+        working-directory: ./terraform
