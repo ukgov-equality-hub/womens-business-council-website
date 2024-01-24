@@ -1,0 +1,188 @@
+/* add on style for LACA2020 */
+
+.page-template-laca2020  {
+}
+
+
+.flexVerticalCenter {display:-ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-direction:column; flex-direction: column;}
+@media screen and (min-width: 500px) {
+	.flex {display:-ms-flexbox; display:flex; -ms-flex-pack: start; justify-content: start;}
+	.flexEqual > *, .flexEqual article {-ms-flex: 1; flex-grow: 1; flex-basis: 0;} /* equal widths */
+	.flexEqualGaps > * {-ms-flex: 1; flex-grow: 1; flex-basis: 1;} /* equal space */
+	.flexWrap {-ms-flex-wrap:wrap; flex-wrap:wrap;}
+	.flexVertical {-ms-flex-direction:column; flex-direction: column; display:-ms-flexbox; display:flex; -ms-flex-pack: start; justify-content: flex-start;}
+}
+
+
+body, p { font-family: 'Montserrat', sans-serif !important; font-weight: 300; color: #000;}
+body h1,body  h2,body h3 { font-family: 'Montserrat', sans-serif;  font-weight: 700; text-transform: uppercase; color: #000;}
+
+
+body .post-entry h3 {font-size: 30px; text-align: center; margin-bottom: 30px;}
+body .post-entry .so-widget-sow-image h3 {font-size: 20px; text-align: center; margin-bottom: 10px; padding-top: 30px;}
+
+body h6 {font-size: 16px; margin-bottom: 16px; line-height: 1.4;}
+
+
+
+.widget_nav_menu li::before, .post-entry ol li::before {content: ''; margin: 0;}
+
+p {line-height: 1.5;}
+
+#header {background-color: #5ec6cc; padding-bottom: 80px;}
+.entry-header {display: none;}
+.laca2020title { background: url(img/titleBG.svg) center no-repeat; background-size: contain; text-align: center; height: 360px;}
+
+@media screen and (MAX-width: 260px) {
+	body .laca2020title h1 {font-size: 1em;}
+}
+@media screen and (MAX-width: 340px) {
+	body .laca2020title h1 {font-size: 1.5em;}
+}
+
+@media screen and (min-width: 380px) {
+	body .laca2020title h1 {font-size: 2.5em;}
+}
+
+@media screen and (min-width: 500px) {
+	body .laca2020title h1 {font-size: 3.5em;}
+}
+@media screen and (min-width: 650px) {
+	body .laca2020title h1 {font-size: 4.5em;}
+}
+
+body h4, .standout {font-family: 'Libre Baskerville', serif; font-size: 1.2em; text-align: center; line-height: 1.6; margin-bottom: 30px; font-weight: 300;}
+body h4 strong { font-weight: 700;}
+.standout a:link, .standout a:visited {color: #000; text-decoration: underline;}
+.standout a:hover {color: #23797e;}
+.laca2020_sub_title {padding-top: 60px;}
+.laca2020_sub_title h4 {margin: 0;}
+
+
+.laca2020button, .laca2020button:active {font-family: 'Libre Baskerville', serif; color: #fff; background-color: #000; font-size: .9em; transition: background-color .2s; padding: 1em 2em;}
+.laca2020button:hover { color: #fff; background-color: #5ec6cc; text-decoration: none; }
+
+
+.laca2020button.emailContact {}
+.emailContactDiv {margin: 80px 0;}
+
+#pg-19532-2 {margin-bottom: 0 !important; margin-top: 100px;}
+
+.laca2020homeIntro {}
+.aligncenter {margin: 0 auto;}
+
+.laca2020threeAsks .panel-no-style {max-width: 1200px !important;}
+.laca2020threeAsks img {max-width: 150px; margin: 0 auto;}
+.laca2020threeAsks p {width: 90%; margin: 0 auto 10px auto;}
+
+
+/* QUOTE */
+.laca2020quote {margin-top: 90px;}
+.laca2020quote > div:nth-of-type(1) {background-color: #5ec6cc; }
+.laca2020quote > div:nth-of-type(2) {background-color: #91cacd; vertical-align: top;}
+.laca2020quote > div {width: 100% !important;}
+@media screen and (MAX-width: 800px) {
+	.laca2020quote > div:nth-of-type(1) {margin-bottom: 0 !important; padding: 60px 0 !important;}
+}
+@media screen and (min-width: 800px) {
+	.laca2020quote {display: table !important;}
+	.laca2020quote > div {width: 50% !important; display: table-cell; vertical-align: middle;}
+
+}
+
+blockquote {padding: 10px 20px; margin: 0 0 20px; border-left: none; }
+blockquote:before {content: ''; display: block; width: 32px; height: 32px;background: url(img/quoteL.png) center no-repeat; background-size: cover; margin: 0 auto;}
+blockquote:after {content: ''; display: block; width: 32px; height: 32px;background: url(img/quoteR.png) center no-repeat; background-size: cover; margin: 0 auto;}
+
+.laca2020quote .sow-image-container {margin: 0;}
+
+
+#site-branding {float: left; width: 260px; margin-top: 8px; padding: 0;}
+#site-branding img {width: 100%;}
+
+@media screen and (min-width: 1200px) {
+	.header-row {margin-right: 65px; margin-left: 65px;}
+}
+
+
+
+.panel-no-style {margin-left: auto !important;margin-right: auto !important; max-width: 700px !important; padding: 0 !important;}
+
+
+@media screen and (min-width: 782px) {
+	.laca2020staff .panel-row-style .panel-grid-cell {max-width: 450px !important;}
+}
+
+/* FOOTER */
+#footer {background-color: #000; padding: 45px 0; color: #fff; font-size: 0.9em;}
+.footer-logo {width: 260px; padding: 0;}
+.footer-logo img {width: 100%;}
+#footer .footer-copyright a  {color: #5ec6cc;}
+#footer h3 {color: #5ec6cc; font-size: 1.2em;}
+.sow-social-media-button {padding: 0;}
+.sow-social-media-button-twitter, .sow-social-media-button-linkedin, .sow-social-media-button-facebook {border: none; box-shadow: none; text-shadow: none; background: transparent; color: #fff;}
+.sow-social-media-button-twitter.ow-button-hover:hover,
+.sow-social-media-button-linkedin.ow-button-hover:hover,
+.sow-social-media-button-facebook.ow-button-hover:hover {border: none; background: transparent; color: #5ec6cc !important;}
+
+
+
+
+
+@media screen and (MAX-width: 599px) {
+	#footer {padding:80px 0 60px 0;}
+	.menu-social-container {margin: 80px 0 50px 0; }
+	.footer-logo, .footer-copyright, .menu-social-container	{text-align: center; margin-left: auto;  margin-right: auto;}
+}
+@media screen and (min-width: 600px) {
+	.footer-logo {float: left; margin: 0 100px 50px 0;}
+	.footer-copyright {clear: both;}
+	.menu-social-container {display: inline-block; text-align: center; width: 130px;}
+}
+
+/* MAIN NAV */
+.laca2020Nav {font-family: 'Libre Baskerville', serif;}
+#main-navigation .main-nav ul li a {color: #000; padding: 10px; margin: 0;}
+#main-navigation .main-nav ul li a:hover {color: #fff;}
+
+
+/* MOBILE NAV */
+@media screen and (MAX-width: 991px) {
+	.header-row {margin: 0;}
+	#main-navigation ul {}
+	#main-navigation.menu-open .main-nav > ul {background-color: #5ec6cc; position: absolute; right: 0; top: 0; width: 100vw; padding: 60px 10px; z-index: 5; height: 100vh;}
+	#main-navigation .main-nav ul li  {text-align: right; max-width: 730px; margin: 0 auto;}
+	#main-navigation .main-nav ul li > ul li {padding-right: 20px; }
+	#main-navigation .main-nav .menu li li a::before {content: '';}
+	#main-navigation .main-nav .menu li li a::after {content: '\2013'; position: absolute; margin-left: 10px;}
+
+
+	#mobile-nav-button {background-color: transparent; position: relative; padding: 15px;}
+	#mobile-nav-button::before { height: 1px; left: 0; top: 10px; width: 30px; background: #000; position: absolute; z-index: 11; display: block; content: ''; transition: all 250ms ease-in-out;}
+	#mobile-nav-button::after {height: 1px; left: 0; bottom: 10px; width: 30px; background: #000; position: absolute; z-index: 10; display: block; content: ''; transition: all 250ms ease-in-out;}
+	.menu-open #mobile-nav-button::before {transform: rotate(45deg); top: 10px;}
+	.menu-open #mobile-nav-button::after {transform: rotate(-45deg); top: 10px;}
+}
+
+/* DESKTOP NAV */
+@media screen and (min-width: 992px) {
+	#menu-item-19558 {display: none;}
+	#main-navigation .main-nav ul {margin: 16px 0; padding: 0; list-style: none; display:-ms-flexbox; display:flex; -ms-flex-pack: end; justify-content: end;}
+	#main-navigation .main-nav ul li {margin: 0; padding: 0;  -ms-flex: 1; flex-grow: 1; flex-basis: 1; text-align: right;}
+	/* sub */
+	#main-navigation .main-nav ul li > ul {margin: 0; left: 27%; background-color: #95d7dc; }
+	#main-navigation .main-nav ul li > ul li {text-align: center;}
+}
+
+
+
+
+/* CTA */
+.laca2020cta {background-color: #ddeff1; text-align: center;}
+.laca2020cta .padding {padding: 80px 0;}
+.laca2020cta .standout {padding: 40px 0; max-width: 290px; margin: 0 auto 10px auto;}
+@media screen and (min-width: 992px) {
+	.laca2020cta {background: url(img/ctaBG.svg) center no-repeat #ddeff1; background-position: bottom;}
+}
+
+

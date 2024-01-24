@@ -1,0 +1,304 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.seo-bulk-index {
+    width: 12px;
+    height: 12px;
+    background-color: #068706;
+    border-radius: 20px;
+    margin: auto;
+	margin-top:3px;
+}
+.seo-bulk-follow{
+    width: 12px;
+    height: 12px;
+    background-color: #068706;
+    border-radius: 20px;
+    margin: auto;
+	margin-top:3px;
+}
+.seo-bulk-noindexer {
+    width: 12px;
+    height: 12px;
+    background-color: #ff0000;
+    border-radius: 20px;
+    margin: auto;
+	margin-top:3px;
+}
+.seo-bulk-nofollow{
+    width: 12px;
+    height: 12px;
+    background-color: #ff0000;
+    border-radius: 20px;
+    margin: auto;
+	margin-top:3px;
+}
+#IndexStatus {
+    width: 20px !important;
+}
+#FollowStatus {
+    width: 20px !important;
+}
+
+/*===========================
+ * 
+ * Index status tooltip
+ * 
+ * ==========================*/
+.admin-nofollow-column, .admin-noindex-column {
+  position: relative;
+  display: inline-block;
+}
+
+.admin-nofollow-column .tooltiptext,.admin-noindex-column .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+    color: #ffffff;
+    background: #000000;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 6px;
+    /* not sure */
+    opacity: 0.8;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -60px;
+    z-index: 999;
+}
+
+.admin-nofollow-column:hover .tooltiptext, .admin-noindex-column:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltiptext:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-top: 8px solid #000000;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+/*=======================================================
+ * 
+ * highlight status tooltip
+ * 
+ * =====================================================*/
+.seo-bulk-follow, .seo-bulk-noindexer, .seo-bulk-index {
+  position: relative;
+}
+.seo-bulk-follow .tooltiptextstatus, .seo-bulk-index .tooltiptextstatus,.seo-bulk-noindexer .tooltiptextstatus {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+    color: #000;
+    background: #ffffff;
+    font-size:10px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 6px;
+    /* not sure */
+    opacity: 0.95;
+    top: 30px;
+    left: 50%;
+    margin-left: -60px;
+    z-index: 999;
+    border:1px solid #c2c2c2;
+}
+
+.seo-bulk-follow:hover .tooltiptextstatus, .seo-bulk-index:hover .tooltiptextstatus, .seo-bulk-noindexer:hover .tooltiptextstatus {
+  visibility: visible;
+}
+.tooltiptextstatus:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-bottom: 8px solid #000000;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+/*======================================================
+ * 
+ * css styling for checkboxes to switch
+ * 
+ * ===================================================*/
+.noindexer-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.noindexer-switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.noindexer-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.noindexer-slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .noindexer-slider {
+  background-color: #2196F3;
+}
+
+input:focus + .noindexer-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .noindexer-slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.noindexer-slider.noindexer-round {
+  border-radius: 34px;
+}
+
+.noindexer-slider.noindexer-round:before {
+  border-radius: 50%;
+}
+
+
+/*====================
+ * 
+ * upgrade settings page styling
+ * 
+ * ====================*/
+section.bseoni {
+    margin: auto;
+    display: block;
+    max-width: 980px;
+    padding: 50px 30px 100px;
+    background-color: #fff;
+}
+
+a.bseoni-upgrade {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1ca7d9), color-stop(1, #0b1d96));
+	background:-moz-linear-gradient(top, #1ca7d9 5%, #0b1d96 100%);
+	background:-webkit-linear-gradient(top, #1ca7d9 5%, #0b1d96 100%);
+	background:-o-linear-gradient(top, #1ca7d9 5%, #0b1d96 100%);
+	background:-ms-linear-gradient(top, #1ca7d9 5%, #0b1d96 100%);
+	background:linear-gradient(to bottom, #1ca7d9 5%, #0b1d96 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1ca7d9', endColorstr='#0b1d96',GradientType=0);
+	background-color:#1ca7d9;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+a.bseoni-upgrade:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0b1d96), color-stop(1, #1ca7d9));
+	background:-moz-linear-gradient(top, #0b1d96 5%, #1ca7d9 100%);
+	background:-webkit-linear-gradient(top, #0b1d96 5%, #1ca7d9 100%);
+	background:-o-linear-gradient(top, #0b1d96 5%, #1ca7d9 100%);
+	background:-ms-linear-gradient(top, #0b1d96 5%, #1ca7d9 100%);
+	background:linear-gradient(to bottom, #0b1d96 5%, #1ca7d9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b1d96', endColorstr='#1ca7d9',GradientType=0);
+	background-color:#0b1d96;
+}
+a.bseoni-upgrade:active {
+	position:relative;
+	top:1px;
+}
+
+/*================
+ * 
+ * table
+ * 
+ * =============*/
+table.bseoni {
+    width: 100%;
+    max-width: 840px;
+    margin: auto;
+	border: 1px solid #efe7e7;
+	padding: 20px;
+	border-radius: 10px;
+}
+.bseoni-0lax {
+    text-align: left;
+}
+img.yoast {
+    height: 300px;
+}
+img.aioseo {
+    height: 250px;
+}
+img.signals {
+    height: 270px;
+}
+.bseoni-upgrade {
+	margin-top: 50px;
+    margin: auto;
+    display: block !important;
+    text-align: center;
+    max-width: 250px;
+}
+.bseoni-0lax ul li strong {
+    font-size: 18px;
+}
+p.bseoni-use-free {
+    margin-top: 50px;
+    font-size: 12px;
+    font-weight: 500;
+}
