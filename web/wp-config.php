@@ -29,7 +29,7 @@
  * Set up our global environment constant and load its config first
  * Default: production
  */
-define('WP_ENV', env('WP_ENV') ?: 'production');
+define('WP_ENV', getenv('WP_ENV') ?: 'production');
 
 
 /*
@@ -47,7 +47,7 @@ define('WP_ENV', env('WP_ENV') ?: 'production');
  *  We use this code (in conjunction with a setting in elastic_beanstalk.tf) to tell WordPress that the user is connecting over HTTPS
  *  So, now it thinks the protocol is https:// ✅
  */
-if (env('HTTPS') === "on") {
+if (getenv('HTTPS') === "on") {
     $_SERVER["HTTPS"] = "on";
     $_SERVER["SERVER_PORT"] = "443";
 }
