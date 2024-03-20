@@ -118,7 +118,7 @@ define('DISALLOW_FILE_EDIT', true);
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 
 /** Absolute path to the WordPress directory. */
