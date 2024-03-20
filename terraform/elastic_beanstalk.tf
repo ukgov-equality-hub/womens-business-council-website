@@ -324,11 +324,11 @@ resource "aws_elastic_beanstalk_environment" "main_app_elastic_beanstalk_environ
 
   /////////////////
   // PHP options
-#  setting {
-#    namespace = "aws:elasticbeanstalk:container:php:phpini"
-#    name      = "document_root"
-#    value     = "/web"
-#  }
+  setting {
+    namespace = "aws:elasticbeanstalk:container:php:phpini"
+    name      = "document_root"
+    value     = "/web"
+  }
 
 
   /////////////////////////////////
