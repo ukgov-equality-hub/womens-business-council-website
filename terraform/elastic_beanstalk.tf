@@ -356,7 +356,7 @@ resource "aws_elastic_beanstalk_environment" "main_app_elastic_beanstalk_environ
   setting {
     namespace = "aws:elasticbeanstalk:application:environment"
     name      = "DB_PREFIX"
-    value     = "zt_"
+    value     = "wp_"
   }
 
   setting {
@@ -377,9 +377,9 @@ resource "aws_elastic_beanstalk_environment" "main_app_elastic_beanstalk_environ
     # WordPress checks that the full URL matches the protocol/domain that it's expecting
     # If not, it replies with a 302 Redirect to the canonical URL
     #
-    # We've set the canonical URL to be https://[dev.]socialmobility.independent-commission.uk
+    # We've set the canonical URL to be https://[dev.]womensbusinesscouncil.co.uk
     # CloudFront receives the request first
-    # We ask CloudFront to forward the Host header ([dev.]socialmobility.independent-commission.uk) ✅
+    # We ask CloudFront to forward the Host header ([dev.]womensbusinesscouncil.co.uk) ✅
     # But CloudFront forwards the request to Elastic Beanstalk over HTTP, not HTTPS ❌
     #
     # So, WordPress would usually issue a 302 redirect to https://...
@@ -396,46 +396,18 @@ resource "aws_elastic_beanstalk_environment" "main_app_elastic_beanstalk_environ
   setting {
     namespace = "aws:elasticbeanstalk:application:environment"
     name      = "WP_SITEURL"
-    value     = "https://${var.dns_record_subdomain_including_dot}${data.aws_route53_zone.route_53_zone_for_our_domain.name}/wp"
+    value     = "https://${var.dns_record_subdomain_including_dot}${data.aws_route53_zone.route_53_zone_for_our_domain.name}"
   }
 
   setting {
     namespace = "aws:elasticbeanstalk:application:environment"
     name      = "SESSION_COOKIE"
-    value     = "smc_session"
+    value     = "wbc_session"
   }
   setting {
     namespace = "aws:elasticbeanstalk:application:environment"
     name      = "SESSION_SECURE_COOKIE"
     value     = 0
-  }
-
-  setting {
-    namespace = "aws:elasticbeanstalk:application:environment"
-    name      = "DEFAULT_TEMPLATE"
-    value     = "templates/full.twig"
-  }
-
-  setting {
-    namespace = "aws:elasticbeanstalk:application:environment"
-    name      = "MAIL_RETURN_PATH_AND_REPLY_TO"
-    value     = "smc-website@example.com"
-  }
-
-  setting {
-    namespace = "aws:elasticbeanstalk:application:environment"
-    name      = "WP_CACHE_HOME"
-    value     = "/var/www/html/web/app/plugins/wp-super-cache/"
-  }
-  setting {
-    namespace = "aws:elasticbeanstalk:application:environment"
-    name      = "WP_CACHE_STORE"
-    value     = "/var/tmp/cache/"
-  }
-  setting {
-    namespace = "aws:elasticbeanstalk:application:environment"
-    name      = "WP_CACHE_TIME"
-    value     = 1  # Cache TTL in seconds
   }
 
   setting {
