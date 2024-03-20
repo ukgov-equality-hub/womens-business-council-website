@@ -1,0 +1,68 @@
+# Translation of Plugins - WP Term Images - Development (trunk) in English (UK)
+# This file is distributed under the same license as the Plugins - WP Term Images - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-06-20 13:24:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - WP Term Images - Development (trunk)\n"
+
+#: includes/class-wp-term-images.php:48
+msgid "Assign terms a custom image to visually separate them from each-other."
+msgstr "Assign terms a custom image to visually separate them from each other."
+
+#: includes/class-wp-term-images.php:81
+msgid "Choose an Image"
+msgstr "Choose an Image"
+
+#: includes/class-wp-term-images.php:167 includes/class-wp-term-images.php:189
+msgid "Choose Image"
+msgstr "Choose Image"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/johnjamesjacoby/"
+msgstr "https://profiles.wordpress.org/johnjamesjacoby/"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/wp-term-images/"
+msgstr "https://wordpress.org/plugins/wp-term-images/"
+
+#: includes/class-wp-term-images.php:46
+msgid "Image"
+msgstr "Image"
+
+#: includes/class-wp-term-images.php:47
+msgid "Images"
+msgstr "Images"
+
+#. Author of the plugin/theme
+msgid "John James Jacoby"
+msgstr "John James Jacoby"
+
+#. Description of the plugin/theme
+msgid "Pretty images for categories, tags, and other taxonomy terms"
+msgstr "Pretty images for categories, tags, and other taxonomy terms"
+
+#: includes/class-wp-term-images.php:171 includes/class-wp-term-images.php:193
+msgid "Remove"
+msgstr "Remove"
+
+#: includes/class-wp-term-images.php:82
+msgid "Set as image"
+msgstr "Set as image"
+
+#: includes/class-wp-term-images.php:97
+msgid "Term Image"
+msgstr "Term Image"
+
+#: includes/class-wp-term-images.php:98
+msgid "Terms can have unique images to help separate them from each other."
+msgstr "Terms can have unique images to help separate them from each other."
+
+#. Plugin Name of the plugin/theme
+msgid "WP Term Images"
+msgstr "WP Term Images"
