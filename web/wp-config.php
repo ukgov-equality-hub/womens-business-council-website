@@ -26,10 +26,39 @@
 
 
 /**
+ * Set up our global environment constant and load its config first
+ * Default: production
+ */
+define('WP_ENV', env('WP_ENV') ?: 'production');
+
+
+/*
+ *  WordPress checks that the full URL matches the protocol/domain that it's expecting
+ *  If not, it replies with a 302 Redirect to the canonical URL
+ *
+ *  We've set the canonical URL to be https://[dev.]womensbusinesscouncil.co.uk
+ *  CloudFront receives the request first
+ *  We ask CloudFront to forward the Host header ([dev.]womensbusinesscouncil.co.uk) ✅
+ *  But CloudFront forwards the request to Elastic Beanstalk over HTTP, not HTTPS ❌
+ *
+ *  So, WordPress would usually issue a 302 redirect to https://...
+ *  This results in a redirect loop
+ *
+ *  We use this code (in conjunction with a setting in elastic_beanstalk.tf) to tell WordPress that the user is connecting over HTTPS
+ *  So, now it thinks the protocol is https:// ✅
+ */
+if (env('HTTPS') === "on") {
+    $_SERVER["HTTPS"] = "on";
+    $_SERVER["SERVER_PORT"] = "443";
+}
+
+
+/**
  * URLs
  */
-define('WP_HOME',       'http://localhost:8080');
-define('WP_SITEURL',       'http://localhost:8080');
+define('WP_HOME', getenv('WP_HOME'));
+define('WP_SITEURL', getenv('WP_SITEURL'));
+
 
 ///**
 // * Custom Content Directory
@@ -48,10 +77,6 @@ define('DB_NAME', getenv('DB_NAME'));
 define('DB_CHARSET', 'utf8mb4');
 define('DB_COLLATE', '');
 $table_prefix = getenv('DB_PREFIX') ?: 'wp_';
-
-
-$_SERVER["HTTPS"] = "off";
-$_SERVER["SERVER_PORT"] = "443";
 
 
 /**
@@ -81,17 +106,6 @@ define('DISABLE_WP_CRON', false);
 define('DISALLOW_FILE_EDIT', true);
 
 
-///**
-// * Bootstrap WordPress
-// */
-//if (!defined('ABSPATH')) {
-//    define('ABSPATH', $webroot_dir . '/wp/');
-//}
-//
-//define('ROOT_DIR', $root_dir);
-//define('WEBROOT_DIR', $webroot_dir);
-//define('VENDOR_DIR', (ROOT_DIR.'/vendor'));
-
 /**
  * For developers: WordPress debugging mode.
  *
@@ -105,7 +119,6 @@ define('DISALLOW_FILE_EDIT', true);
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
-define('FORCE_SSL_ADMIN', false);
 
 
 /** Absolute path to the WordPress directory. */
