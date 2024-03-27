@@ -67,3 +67,22 @@ jobs:
           echo test=$(jq -r '.resources[] | select(.name == "static_website_s3_bucket").instances[].attributes.bucket' current_tf_state.json) >> static_website_s3_bucket.txt
           cat static_website_s3_bucket.txt
           cat static_website_s3_bucket.txt >> $GITHUB_OUTPUT
+
+  build_and_deploy:
+    name: 'Build and Deploy'
+    runs-on: ubuntu-latest
+    needs: terraform
+
+    env:
+      STATIC_WEBSITE_S3_BUCKET: "${{needs.terraform.outputs.static_website_s3_bucket}}"
+
+    steps:
+      - name: 'Checkout Code'
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: 'Copy the files to AWS S3'
+        run: |
+          aws s3 sync . s3://${{ env.STATIC_WEBSITE_S3_BUCKET }} --delete
+        working-directory: ./offline-copy-of-website/localhost+8080
