@@ -39,8 +39,17 @@ variable "dns_record_root_domain_including_dot" {
   description = "The root domain (including dot - e.g. 'dev.' or just '' for production) for the root domain redirect"
 }
 
-variable "aws_region" {
+
+// SECRETS
+// These variables are set in GitHub Actions environment-specific secrets
+// Most of these are passed to the application via Elastic Beanstalk environment variables
+variable "BASIC_AUTH_USERNAME" {
   type = string
-  description = "The AWS region used for the provider and resources."
-  default = "eu-west-2"
+  default = ""
+  sensitive = true
+}
+variable "BASIC_AUTH_PASSWORD" {
+  type = string
+  default = ""
+  sensitive = true
 }

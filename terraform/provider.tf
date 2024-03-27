@@ -13,7 +13,7 @@ terraform {
 }
 
 provider "aws" {
-  region = var.aws_region // no alias is provided so will be used as default
+  region = "eu-west-2" // no alias is provided so will be used as default
 
   default_tags {
     tags = {
