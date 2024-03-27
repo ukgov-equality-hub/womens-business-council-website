@@ -3,6 +3,9 @@ name: '(shared functionality) Terraform'
 on:
   workflow_call:
     inputs:
+      GITHUB_ACTIONS_ENVIRONMENT:
+        required: true
+        type: string
       TERRAFORM_STATE_BUCKET:
         required: true
         type: string
@@ -17,6 +20,10 @@ on:
         required: true
       TERRAFORM_AWS_SECRET_ACCESS_KEY:
         required: true
+      BASIC_AUTH_USERNAME:
+        required: false
+      BASIC_AUTH_PASSWORD:
+        required: false
 
 env:
   AWS_ACCESS_KEY_ID: ${{ secrets.TERRAFORM_AWS_ACCESS_KEY_ID }}
@@ -27,6 +34,10 @@ jobs:
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
+    environment: ${{ inputs.GITHUB_ACTIONS_ENVIRONMENT }}
+
+    outputs:
+      static_website_s3_bucket: ${{ steps.step_static_website_s3_bucket.outputs.test }}
 
     steps:
       - name: 'Checkout Code'
@@ -41,5 +52,18 @@ jobs:
         run: |
           terraform apply \
           -var-file "${{ inputs.TERRAFORM_TFVARS_FILE }}" \
+          -var "BASIC_AUTH_USERNAME=${{ secrets.BASIC_AUTH_USERNAME }}" \
+          -var "BASIC_AUTH_PASSWORD=${{ secrets.BASIC_AUTH_PASSWORD }}" \
           -auto-approve
         working-directory: ./terraform
+
+      - name: 'Download the TFState file'
+        run: |
+          aws s3 cp "s3://${{ inputs.TERRAFORM_STATE_BUCKET }}/${{ inputs.TERRAFORM_STATE_FILE }}" ./current_tf_state.json
+
+      - id: step_static_website_s3_bucket
+        name: 'Find the name of the static website S3 bucket'
+        run: |
+          echo test=$(jq -r '.resources[] | select(.name == "static_website_s3_bucket").instances[].attributes.bucket' current_tf_state.json) >> static_website_s3_bucket.txt
+          cat static_website_s3_bucket.txt
+          cat static_website_s3_bucket.txt >> $GITHUB_OUTPUT
