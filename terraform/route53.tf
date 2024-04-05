@@ -12,8 +12,8 @@ resource "aws_route53_record" "dns_alias_record__main_website" {
 
   alias {
     evaluate_target_health = false
-    name = aws_cloudfront_distribution.distribution__redirects.domain_name
-    zone_id = aws_cloudfront_distribution.distribution__redirects.hosted_zone_id
+    name = aws_cloudfront_distribution.distribution__main_website.domain_name
+    zone_id = aws_cloudfront_distribution.distribution__main_website.hosted_zone_id
   }
 }
 
