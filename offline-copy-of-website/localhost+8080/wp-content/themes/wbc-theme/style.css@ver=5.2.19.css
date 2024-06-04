@@ -188,7 +188,7 @@ input[type="submit"], input[type="reset"], input[type="button"] {
 .header-title-image {
     padding: 60px 0;
     background-color: #80abc8;
-	background-image: url('../../uploads/page-header.jpg');
+	background-image: url('/wp-content/uploads/page-header.jpg');
     border-bottom: 1px solid #f2f2f2;
 	background-size: cover;
     background-repeat: no-repeat;
@@ -567,12 +567,12 @@ vertical-align:text-top;
     font-family: 'sow-fontawesome-brands';
     font-style: normal;
     font-weight: normal;
-    src: url("http://localhost:8080/wp-content/themes/responsive-mobile/webfonts/fa-brands-400.eot");
-    src: url("http://localhost:8080/wp-content/themes/wbc-theme/webfonts/fa-brands-400.eot?") format("embedded-opentype"),
-    url("http://localhost:8080/wp-content/themes/wbc-theme/webfonts/fa-brands-400.woff2") format("woff2"),
-    url("http://localhost:8080/wp-content/themes/wbc-theme/webfonts/fa-brands-400.woff") format("woff"),
-    url("http://localhost:8080/wp-content/themes/wbc-theme/webfonts/fa-brands-400.ttf") format("truetype"),
-    url("http://localhost:8080/wp-content/themes/wbc-theme/webfonts/fa-brands-400.svg") format("svg");
+    src: url("../responsive-mobile/webfonts/fa-brands-400.eot");
+    src: url("webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"),
+    url("webfonts/fa-brands-400.woff2") format("woff2"),
+    url("webfonts/fa-brands-400.woff") format("woff"),
+    url("webfonts/fa-brands-400.ttf") format("truetype"),
+    url("webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
 
 
