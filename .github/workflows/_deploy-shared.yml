@@ -82,7 +82,18 @@ jobs:
         with:
           submodules: true
 
+      - name: 'Install Node.JS'
+        uses: actions/setup-node@v4
+
+      - name: 'Install Node.JS (npm) dependencies'
+        run: |
+          npm ci
+
+      - name: 'Run the Eleventy build'
+        run: |
+          npx eleventy
+
       - name: 'Copy the files to AWS S3'
         run: |
           aws s3 sync . s3://${{ env.STATIC_WEBSITE_S3_BUCKET }} --delete
-        working-directory: ./offline-copy-of-website/localhost+8080
+        working-directory: _site

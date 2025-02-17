@@ -1,3 +1,8 @@
 
 # JetBrains IDE files
 .idea
+
+node_modules
+
+# Eleventy live site
+_site
