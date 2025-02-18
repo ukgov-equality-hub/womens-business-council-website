@@ -2,5 +2,9 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@x-govuk/govuk-eleventy-plugin": "^6.7.2"
+  },
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve"
   }
 }
