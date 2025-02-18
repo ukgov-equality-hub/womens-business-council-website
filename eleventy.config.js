@@ -23,15 +23,15 @@ module.exports = function(eleventyConfig) {
                 },
                 {
                     text: 'About',
-                    href: '/about',
+                    href: '/about/',
                 },
                 {
                     text: 'Members',
-                    href: '/members',
+                    href: '/members/',
                 },
                 {
                     text: 'Resources',
-                    href: '/resources',
+                    href: '/resources/',
                 },
             ],
         },

@@ -5,4 +5,4 @@ title: Members
 
 The members are:
 
-* [Firstname Surname](firstname-surname)
+* [Firstname Surname](firstname-surname/)
