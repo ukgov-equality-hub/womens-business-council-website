@@ -21,7 +21,7 @@ Our objectives are to:
 
 ## Council members
 
-[Our members](/members) are senior business leaders working across a range of sectors who are passionate about empowering women in the workplace. We believe that gender equality can boost productivity, innovation and competitiveness.
+[Our members](/members/) are senior business leaders working across a range of sectors who are passionate about empowering women in the workplace. We believe that gender equality can boost productivity, innovation and competitiveness.
 
 Mary Macleod, Chief Executive of Business in the Community, is the current chair.
 
