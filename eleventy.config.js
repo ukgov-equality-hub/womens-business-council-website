@@ -38,7 +38,11 @@ module.exports = function(eleventyConfig) {
         footer: {
             copyright: false,
         },
-    })
+    });
+
+    // Copy any .pdf file to `_site`, via Glob pattern
+    // Keeps the same directory structure.
+    eleventyConfig.addPassthroughCopy("**/*.pdf");
 
     return {
         dataTemplateEngine: 'njk',
@@ -50,5 +54,5 @@ module.exports = function(eleventyConfig) {
             // Use layouts from the plugin
             layouts: '../node_modules/@x-govuk/govuk-eleventy-plugin/layouts'
         },
-    }
+    };
 };
