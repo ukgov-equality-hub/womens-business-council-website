@@ -10,9 +10,38 @@ $govuk-link-visited-colour: #592500;
 
 .govuk-header {
   background-color: #ffffff !important;
+  margin: 0 15px;
 
-  .govuk-header__link {
-    color: $govuk-link-colour !important;
+  @media (min-width: 641px) {
+    margin: 0 30px;
+  }
+  @media (min-width: 1024px) {
+    max-width: 960px;
+    margin: auto;
+  }
+
+  .govuk-header__container {
+    margin-left: 0;
+
+    .govuk-header__link {
+      color: $govuk-link-colour !important;
+    }
+  }
+}
+
+.govuk-service-navigation {
+  margin: 0 15px;
+
+  @media (min-width: 641px) {
+    margin: 0 30px;
+
+    .govuk-width-container {
+      margin: 0 30px;
+    }
+  }
+  @media (min-width: 1024px) {
+    max-width: 960px;
+    margin: auto;
   }
 }
 
