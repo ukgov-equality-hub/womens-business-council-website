@@ -14,4 +14,4 @@ We published our first report – Maximising women's contribution to future eco
 * [5 year progress report (PDF)](WBC-5-year-report.pdf) (2018)
 * [10 year progress report (PDF)](WBC-10-year-anniversary-report.pdf) (2023)
 
-* [100 ways to work flexibly](100-ways-to-work-flexibly)
+* [100 ways to work flexibly](100-ways-to-work-flexibly/)
