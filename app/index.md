@@ -34,31 +34,31 @@ main header {
     <div>
         <p>
             <a href="/about/">
-                About the Women's Business Council
+                About the WBC
             </a>
         </p>
         <p>
-            Who we are and what we're doing
+            Information about our history and our current objectives.
         </p>
     </div>
     <div>
         <p>
             <a href="/members/">
-                Members of the Women's Business Council
+                WBC members
             </a>
         </p>
         <p>
-            Biographies of WBC members
+            Biographies of WBC members.
         </p>
     </div>
     <div>
         <p>
             <a href="/resources/">
-                Our work
+                Resources
             </a>
         </p>
         <p>
-            Our reports and case studies
+            Links to our work, including reports and case studies.
         </p>
     </div>
 </div>
