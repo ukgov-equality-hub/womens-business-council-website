@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&family=Golos+Text:wght@400..900&display=swap');
 
 $govuk-font-family: "Golos Text", system-ui, sans-serif;
-$govuk-brand-colour: #8822aa;
-$govuk-link-colour: #660088;
-$govuk-link-hover-colour: #440066;
-$govuk-link-visited-colour: #333366;
+
+$govuk-brand-colour: #ED7102;
+$govuk-link-colour: #843E01;
+$govuk-link-hover-colour: #723300;
+$govuk-link-visited-colour: #592500;
+
+
+.govuk-header {
+  background-color: #ffffff !important;
+
+  .govuk-header__link {
+    color: $govuk-link-colour !important;
+  }
+}
