@@ -22,6 +22,11 @@ $govuk-link-visited-colour: #592500;
 
   .govuk-header__container {
     margin-left: 0;
+    padding-top: 15px;
+
+    .govuk-header__logo {
+      margin-bottom: 15px;
+    }
 
     .govuk-header__link {
       color: $govuk-link-colour !important;
