@@ -2,6 +2,7 @@
 layout: page
 title: Sian Fussell
 role: Chief Technology Officer
+summary: Sian Fussell is the Chief Technology Officer at Albotherm, a company she co-founded in 2020.
 company: Albotherm
 includeInBreadcrumbs: true
 tags: member

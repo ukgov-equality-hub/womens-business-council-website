@@ -2,6 +2,7 @@
 layout: page
 title: Claire Given
 role: Chief Executive
+summary: Claire Given has been the Chief Executive Officer at Equipmii since 2023.
 company: Equipmii
 includeInBreadcrumbs: true
 tags: member
