@@ -86,3 +86,27 @@ $govuk-link-visited-colour: #592500;
     }
   }
 }
+
+.app-prose-scope {
+  .member-summary {
+    img {
+      border-radius: 50%;
+  
+      object-fit: cover;
+      object-position: center 0%;
+    }
+  
+    h2 {
+      text-align: center;
+      color: inherit;
+    }
+    h3 {
+      text-align: center;
+    }
+  
+    div {
+      max-height: 9rem;
+      overflow: hidden;
+    }
+  }
+}
