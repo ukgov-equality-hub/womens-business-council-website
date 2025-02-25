@@ -12,7 +12,7 @@ That’s why ‘100 ways to work flexibly’ is telling the stories of men and w
 
 ---
 
-The case studies were correct at the time this content was originally published on the WBC website. People's roles, employers and flexible working patterns may have changed since then
+Please note: These case studies were correct at the time they were originally published on the WBC website. People's roles, employers and flexible working patterns may have changed since then.
 
 ---
 
