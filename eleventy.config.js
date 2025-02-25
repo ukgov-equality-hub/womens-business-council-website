@@ -40,9 +40,12 @@ module.exports = function(eleventyConfig) {
         },
     });
 
+    // Copy `img/` to `_site/img`
+    eleventyConfig.addPassthroughCopy("app/images");
+
     // Copy any .pdf file to `_site`, via Glob pattern
     // Keeps the same directory structure.
-    eleventyConfig.addPassthroughCopy("**/*.pdf");
+    eleventyConfig.addPassthroughCopy("app/**/*.pdf");
 
     return {
         dataTemplateEngine: 'njk',
