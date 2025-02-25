@@ -15,3 +15,45 @@ $govuk-link-visited-colour: #592500;
     color: $govuk-link-colour !important;
   }
 }
+
+
+.hero {
+  position: relative;
+
+  .text {
+    padding: 4%;
+    background-color: #8D4302;
+    font-family: $govuk-font-family;
+
+    @media (min-width: 954px) {
+      position: absolute;
+      left: 19px;
+      width: 420px;
+      padding: 38px;
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #ffffff;
+    }
+
+    p {
+      color: #ffffff;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  img {
+    display: block;
+
+    @media (max-width: 953px) {
+      width: 100% !important;
+      max-height: 350px;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+}
