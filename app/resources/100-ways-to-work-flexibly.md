@@ -51,6 +51,8 @@ Working a particular number of weeks per year on either a full or part-time basi
 
 Having different start, finish and break times from other workers.
 
+---
+
 ## Case studies
 
 ### Sara Abbonizio
