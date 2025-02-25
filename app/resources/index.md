@@ -3,7 +3,7 @@ layout: page
 title: Resources
 ---
 
-We published our first report – Maximising women's contribution to future economic growth – in June 2013. We have published 6 progress reports since then, along with case studies about flexible working ('100 ways to work flexibly').
+We published our first report in June 2013. We have published 6 progress reports since then, along with case studies about flexible working ('100 ways to work flexibly').
 
 * [Maximising women's contribution to future economic growth (PDF)](WBC-Maximising-womens-contribution-to-future-economic-growth.pdf) (2013)
 
