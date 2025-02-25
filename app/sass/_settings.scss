@@ -51,6 +51,11 @@ $govuk-link-visited-colour: #592500;
 }
 
 
+ul.govuk-list.govuk-list--bullet {
+  max-width: calc(38em - 20px);
+}
+
+
 .hero {
   position: relative;
 
