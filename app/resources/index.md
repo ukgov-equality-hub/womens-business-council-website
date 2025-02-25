@@ -3,13 +3,15 @@ layout: page
 title: Resources
 ---
 
-Here are some resources we created:
+We published our first report – Maximising women's contribution to future economic growth – in June 2013. We have published 6 progress reports since then, along with case studies about flexible working ('100 Ways of Working Flexibly').
 
-* [100 ways of working](#)
-* [Main report](WBC-Maximising-womens-contribution-to-future-economic-growth.pdf)
-* [1 year on](WBC-1-year-report.pdf)
-* [2 years on](WBC-2-year-report.pdf)
-* [3 years on](WBC-3-year-report.pdf)
-* [4 years on](WBC-4-year-report.pdf)
-* [5 years on](WBC-5-year-report.pdf)
-* [10 years on](WBC-10-year-anniversary-report.pdf)
+* [Maximising women's contribution to future economic growth (PDF)](WBC-Maximising-womens-contribution-to-future-economic-growth.pdf) (2013)
+
+* [1 year progress report (PDF)](WBC-1-year-report.pdf) (2014)
+* [2 year progress report (PDF)](WBC-2-year-report.pdf) (2015)
+* [3 year progress report (PDF)](WBC-3-year-report.pdf) (2016)
+* [4 year progress report (PDF)](WBC-4-year-report.pdf) (2017)
+* [5 year progress report (PDF)](WBC-5-year-report.pdf) (2018)
+* [10 year progress report (PDF)](WBC-10-year-anniversary-report.pdf) (2023)
+
+* [100 ways of working flexibly](#)
