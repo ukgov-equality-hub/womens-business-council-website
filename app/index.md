@@ -38,7 +38,7 @@ main header {
             </a>
         </p>
         <p>
-            TODO who we are and what we're doing
+            Who we are and what we're doing
         </p>
     </div>
     <div>
@@ -48,7 +48,7 @@ main header {
             </a>
         </p>
         <p>
-            TODO member biogs
+            Biographies of WBC members
         </p>
     </div>
     <div>
@@ -58,7 +58,7 @@ main header {
             </a>
         </p>
         <p>
-            TODO resources we've created
+            Our reports and case studies
         </p>
     </div>
 </div>
