@@ -10,6 +10,13 @@ Throughout life there are many competing demands on our time which can make bala
 
 That’s why ‘100 ways to work flexibly’ is telling the stories of men and women of different ages and backgrounds. People who have found a way to work which is right for them, and their employer. 
 
+---
+
+The case studies were correct at the time this content was originally published on the WBC website. People's roles, employers and flexible working patterns may have changed since then
+
+---
+
+
 ## Types of flexible working 
 
 ### Flexitime
