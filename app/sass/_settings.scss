@@ -87,6 +87,34 @@ $govuk-link-visited-colour: #592500;
   }
 }
 
+.cards-321-up {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  flex-wrap: wrap;
+
+  div {
+    box-sizing: border-box;
+    padding: 0 15px 10px 15px;
+
+    width: 100%;
+    @media (min-width: 450px) {
+      width: 50%;
+    }
+    @media (min-width: 750px) {
+      width: 33.3333333333%;
+    }
+
+    &::before {
+      content: "";
+      background-color: $govuk-brand-colour;
+      display: block;
+      height: 10px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
 .app-prose-scope {
   .member-summary {
     img {
