@@ -122,6 +122,10 @@ $govuk-link-visited-colour: #592500;
 
 .app-prose-scope {
   .member-summary {
+    .member-image-link {
+      display: block;
+    }
+
     img {
       border-radius: 50%;
   
