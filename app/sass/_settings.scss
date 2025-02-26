@@ -2,10 +2,12 @@
 
 $govuk-font-family: "Golos Text", system-ui, sans-serif;
 
-$govuk-brand-colour: #ED7102;
-$govuk-link-colour: #843E01;
-$govuk-link-hover-colour: #723300;
-$govuk-link-visited-colour: #592500;
+$govuk-brand-colour: #005932;
+$govuk-link-colour: #005932;
+$govuk-link-hover-colour: #004d2b;
+$govuk-link-visited-colour: #004225;
+
+$brg: #004225;
 
 
 .govuk-header {
@@ -61,7 +63,7 @@ ul.govuk-list.govuk-list--bullet {
 
   .text {
     padding: 4%;
-    background-color: #8D4302;
+    background-color: $govuk-brand-colour;
     font-family: $govuk-font-family;
 
     @media (min-width: 954px) {
@@ -135,7 +137,7 @@ ul.govuk-list.govuk-list--bullet {
       border-radius: 50%;
   
       object-fit: cover;
-      object-position: center 0%;
+      object-position: center 0;
     }
   
     h2 {
