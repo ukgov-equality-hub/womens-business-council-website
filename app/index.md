@@ -16,15 +16,13 @@ main header {
         <h1>
             Women's Business Council
         </h1>
+        <p> The Women's Business Council (WBC) works to maximise women’s potential in the workplace. It is a government-backed, business-led initiative which reports to the Minister for Women and Equalities.
+ </p>
         <p>
-            The Women's Business Council (WBC) works to maximise women’s potential in the workplace.
+            The WBC is a business-led initiative, with senior leaders who strive to boost women’s representation in the workplace, helping to boost productivity, innovation and competitiveness.
         </p>
         <p>
-            It focuses on industry sectors with the most significant gender pay gaps and or underrepresentation of women.
-            It aims to improve women’s representation within the workplace on a national level.
-        </p>
-        <p>
-            The WBC is a government-backed, business-led initiative which reports to the Minister for Women and Equalities.
+            The WBC is chaired by Mary Macleod, chief executive of Business in the Community.
         </p>
     </div>
     <img src="/images/hero-4.jpg">
