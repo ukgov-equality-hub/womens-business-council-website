@@ -6,6 +6,7 @@ summary: Suzannah Nichol has been Chief Executive of Build UK since 2015.
 company: Build UK
 includeInBreadcrumbs: true
 tags: member
+image: suzannah-nichol.jpg
 ---
 
 <div class="govuk-grid-row">
