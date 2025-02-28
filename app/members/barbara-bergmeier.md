@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Barbara Bergmeier
-role: Special Advisor
-summary: Barbara Bergmeier is a Special Advisor at Jaguar Landrover.
+role: Strategic Advisor
+summary: Barbara Bergmeier has been Strategic Advisor at Jaguar Landrover since January 2025.
 company: Jaguar Landrover
 includeInBreadcrumbs: true
 tags: member
