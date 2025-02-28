@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: Claire Given
@@ -7,7 +6,6 @@ summary: Claire Given has been the Chief Executive Officer at Equipmii since 202
 company: Equipmii
 includeInBreadcrumbs: true
 tags: member
-image: claire-given.jpg
 ---
 
 <div class="govuk-grid-row">
