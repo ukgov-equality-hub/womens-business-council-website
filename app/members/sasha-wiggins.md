@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Claire Given
+title: Sasha Wiggins
 role: Chief Executive
-summary: Claire Given has been the Chief Executive Officer at Equipmii since 2023.
-company: Equipmii
+summary: Sasha Wiggins has been Chief Executive of Barclays Private Bank and Wealth Management since February 2024.
+company: Barclays Private Bank and Wealth Management
 includeInBreadcrumbs: true
 tags: member
 ---
@@ -11,11 +11,11 @@ tags: member
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
   
-Claire Given has been the Chief Executive Officer at Equipmii since 2023.
+Sasha Wiggins is Chief Executive of Barclays Private Bank and Wealth Management, and she is a member of the Group Executive Committee.
 
-Claire has over 12 years of entrepreneurial experience in building businesses that drive meaningful societal and economic impact. In 2025, she was awarded the Women in Innovation Award for her pioneering work with Equipmii to improve accessibility and enhance the experience of disabled consumers.
+Sasha joined Barclays in 2002, progressing through a number of roles in the Private Bank. In 2015 she was appointed CEO of Barclays Bank Ireland and subsequently became the Group Chief of Staff in 2018. Sasha joined the Group Executive Committee as the Group Head of Public Policy and Corporate Responsibility, accountable for the Bank’s overall sustainability agenda and Barclays engagement with governments, regulators, the media and key policymakers. She assumed her current role in February 2024.
 
-Previously, Claire held roles at Raspberry Pi Foundation and Bupa, where she contributed to initiatives in healthcare, and technology.
+Sasha is a Fellow of the Chartered Institute of Securities & Investment. She is also Vice Chair of the Royal Marsden Cancer Charity’s Corporate Partnerships Board and trustee on the Board of Grief Encounter, a national charity supporting bereaved children and young people.
 
   </div>
   <div class="govuk-grid-column-one-third member-page-image"><img src="/images/{{image}}"/></div>
