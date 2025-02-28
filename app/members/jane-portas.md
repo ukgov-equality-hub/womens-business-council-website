@@ -6,6 +6,7 @@ summary: Jane Portas is the creator of 6 Moments That Matter, and founder of THI
 company: THINKMONEY THINKLIFE
 includeInBreadcrumbs: true
 tags: member
+image: jane-portas.png
 ---
 
 <div class="govuk-grid-row">
