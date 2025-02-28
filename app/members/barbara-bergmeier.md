@@ -6,6 +6,7 @@ summary: Barbara Bergmeier has been Strategic Advisor at Jaguar Landrover since 
 company: Jaguar Landrover
 includeInBreadcrumbs: true
 tags: member
+image: barbara-bergmeier.jpg
 ---
 
 <div class="govuk-grid-row">
