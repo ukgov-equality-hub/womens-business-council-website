@@ -6,6 +6,7 @@ summary: Sasha Wiggins has been Chief Executive of Barclays Private Bank and Wea
 company: Barclays Private Bank and Wealth Management
 includeInBreadcrumbs: true
 tags: member
+image: sasha-wiggins.jpg
 ---
 
 <div class="govuk-grid-row">
