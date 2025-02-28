@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Claire Given
-role: Chief Executive
-summary: Claire Given has been the Chief Executive Officer at Equipmii since 2023.
-company: Equipmii
+title: David Ziyambi
+role: Partner
+summary: David Ziyambi is a Partner at Latham & Watkins, where he has worked since 2011.
+company: Latham & Watkins
 includeInBreadcrumbs: true
 tags: member
 ---
@@ -11,11 +11,9 @@ tags: member
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
   
-Claire Given has been the Chief Executive Officer at Equipmii since 2023.
+David Ziyambi is a Partner at global law firm Latham & Watkins, where he has worked since 2011. His practice primarily focuses on project, structured, and leveraged financing in the energy and infrastructure sectors within both mature and developing markets, particularly throughout Africa.  
 
-Claire has over 12 years of entrepreneurial experience in building businesses that drive meaningful societal and economic impact. In 2025, she was awarded the Women in Innovation Award for her pioneering work with Equipmii to improve accessibility and enhance the experience of disabled consumers.
-
-Previously, Claire held roles at Raspberry Pi Foundation and Bupa, where she contributed to initiatives in healthcare, and technology.
+David co-founded and continues to advise the Black Lawyers Group (BLG) at Latham & Watkins, and is a trustee for the BIGKID Foundation, a youth charity dedicated to helping young people in London fulfil their potential.
 
   </div>
   <div class="govuk-grid-column-one-third member-page-image"><img src="/images/{{image}}"/></div>
