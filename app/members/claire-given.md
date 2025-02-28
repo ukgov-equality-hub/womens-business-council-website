@@ -7,6 +7,7 @@ company: Equipmii
 includeInBreadcrumbs: true
 tags: member
 image: claire-given.jpg
+order: 4
 ---
 
 <div class="govuk-grid-row">

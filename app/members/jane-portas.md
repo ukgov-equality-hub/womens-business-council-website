@@ -7,6 +7,7 @@ company: THINKMONEY THINKLIFE
 includeInBreadcrumbs: true
 tags: member
 image: jane-portas.png
+order: 10
 ---
 
 <div class="govuk-grid-row">

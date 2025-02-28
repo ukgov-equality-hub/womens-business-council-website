@@ -7,6 +7,7 @@ company: Latham & Watkins
 includeInBreadcrumbs: true
 tags: member
 image: david_j_ziyambi.jpg
+order: 13
 ---
 
 <div class="govuk-grid-row">

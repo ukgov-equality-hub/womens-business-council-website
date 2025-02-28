@@ -7,6 +7,7 @@ company: Bain & Company
 includeInBreadcrumbs: true
 tags: member
 image: james-hadley.png
+order: 5
 ---
 
 <div class="govuk-grid-row">

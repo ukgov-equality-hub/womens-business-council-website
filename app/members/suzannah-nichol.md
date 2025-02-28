@@ -7,6 +7,7 @@ company: Build UK
 includeInBreadcrumbs: true
 tags: member
 image: suzannah-nichol.jpg
+order: 9
 ---
 
 <div class="govuk-grid-row">

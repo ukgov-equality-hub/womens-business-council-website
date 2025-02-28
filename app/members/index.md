@@ -4,7 +4,7 @@ title: Members
 ---
 
 <div class="govuk-grid-row">
-  {%- for member in collections.member -%}
+  {%- for member in collections.members_sorted -%}
     <div class="member-summary govuk-grid-column-one-third">
       <a class="member-image-link" href="{{member.url}}"><img src="/images/{{member.data.image or "member-PLACEHOLDER.png"}}" /></a>
       <h2 class="govuk-heading-m govuk-!-margin-top-4 govuk-!-margin-bottom-2"><a href="{{member.url}}">{{ member.data.title }}</a></h2>

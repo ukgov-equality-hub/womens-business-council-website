@@ -47,6 +47,12 @@ module.exports = function(eleventyConfig) {
     // Keeps the same directory structure.
     eleventyConfig.addPassthroughCopy("app/**/*.pdf");
 
+    eleventyConfig.addCollection("members_sorted", function (collectionsApi) {
+        return collectionsApi.getFilteredByTag('member').sort(function (a, b) {
+            return a.data.order - b.data.order;
+        });
+    });
+
     return {
         dataTemplateEngine: 'njk',
         htmlTemplateEngine: 'njk',

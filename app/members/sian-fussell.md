@@ -7,6 +7,7 @@ company: Albotherm
 includeInBreadcrumbs: true
 tags: member
 image: sian-fussell.jpeg
+order: 3
 ---
 
 <div class="govuk-grid-row">

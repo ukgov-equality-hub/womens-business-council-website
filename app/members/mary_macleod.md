@@ -5,8 +5,9 @@ role: Chair
 summary: Mary Macleod has been CEO of Business in the Community since January 2023.
 company: Business in the Community
 includeInBreadcrumbs: true
-tags: member, chair
+tags: member
 image: mary-macleod.jpeg
+order: 1
 ---
 
 <div class="govuk-grid-row">

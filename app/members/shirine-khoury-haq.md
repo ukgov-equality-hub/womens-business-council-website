@@ -7,6 +7,7 @@ company: Co-op
 includeInBreadcrumbs: true
 tags: member
 image: shirine-khoury-haq.jpg
+order: 7
 ---
 
 <div class="govuk-grid-row">

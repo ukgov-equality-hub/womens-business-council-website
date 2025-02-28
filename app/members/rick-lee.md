@@ -7,6 +7,7 @@ company: Willmott Dixon
 includeInBreadcrumbs: true
 tags: member
 image: rick-lee.jpg
+order: 8
 ---
 
 <div class="govuk-grid-row">

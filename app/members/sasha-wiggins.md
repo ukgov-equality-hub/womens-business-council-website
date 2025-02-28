@@ -7,6 +7,7 @@ company: Barclays Private Bank and Wealth Management
 includeInBreadcrumbs: true
 tags: member
 image: sasha-wiggins.jpg
+order: 12
 ---
 
 <div class="govuk-grid-row">

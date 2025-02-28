@@ -7,6 +7,7 @@ company: Marks & Spencer
 includeInBreadcrumbs: true
 tags: member
 image: rachel-higham.jpg
+order: 6
 ---
 
 <div class="govuk-grid-row">
