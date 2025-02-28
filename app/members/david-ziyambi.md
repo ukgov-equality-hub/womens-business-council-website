@@ -6,7 +6,7 @@ summary: David Ziyambi is a Partner at Latham & Watkins, where he has worked sin
 company: Latham & Watkins
 includeInBreadcrumbs: true
 tags: member
-image: david-ziyambi.jpg
+image: david_j_ziyambi.jpg
 ---
 
 <div class="govuk-grid-row">
