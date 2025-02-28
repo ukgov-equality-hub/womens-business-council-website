@@ -6,6 +6,7 @@ summary: Shirine Khoury-Haq has been Group Chief Executive Officer at Co-op sinc
 company: Co-op
 includeInBreadcrumbs: true
 tags: member
+image: shirine-khoury-haq.jpg
 ---
 
 <div class="govuk-grid-row">
