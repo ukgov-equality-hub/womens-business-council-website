@@ -6,6 +6,7 @@ summary: Rachel Higham is Chief Digital and Technology Officer at Marks & Spence
 company: Marks & Spencer
 includeInBreadcrumbs: true
 tags: member
+image: rachel-higham.jpg
 ---
 
 <div class="govuk-grid-row">
