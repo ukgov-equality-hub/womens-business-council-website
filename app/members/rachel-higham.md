@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Claire Given
-role: Chief Executive
-summary: Claire Given has been the Chief Executive Officer at Equipmii since 2023.
-company: Equipmii
+title: Rachel Higham
+role: Chief Digital and Technology Officer
+summary: Rachel Higham is Chief Digital and Technology Officer at Marks & Spencer..
+company: Marks & Spencer
 includeInBreadcrumbs: true
 tags: member
 ---
@@ -11,11 +11,11 @@ tags: member
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
   
-Claire Given has been the Chief Executive Officer at Equipmii since 2023.
+Rachel is Chief Digital and Technology Officer at Marks & Spencer. She has extensive experience of driving digital transformation through her technology career in the retail, media, financial services and telecoms industries. Prior to her role at M&S, Rachel served in technology leadership roles at WPP, HSBC, ACE Group and BT, living and working across Europe, the Middle East, Africa, Asia, North and Latin America.
 
-Claire has over 12 years of entrepreneurial experience in building businesses that drive meaningful societal and economic impact. In 2025, she was awarded the Women in Innovation Award for her pioneering work with Equipmii to improve accessibility and enhance the experience of disabled consumers.
+A passionate diversity and inclusion champion, Rachel sponsors a number of development programmes for women and the LGBTQ+ community. She has wide-ranging governance experience from her corporate career and being on the boards of several arts charities, advisory and industry bodies.
 
-Previously, Claire held roles at Raspberry Pi Foundation and Bupa, where she contributed to initiatives in healthcare, and technology.
+Rachel currently serves on the Board of Macmillan, the charity supporting 3 million people living with cancer in the UK, serving on their People and EDI committee and chairing both their Technology and Innovation Impact Investment Portfolio Advisory Groups.
 
   </div>
   <div class="govuk-grid-column-one-third member-page-image"><img src="/images/{{image}}"/></div>
