@@ -6,7 +6,7 @@ summary: Shaheen Sayed is the Head of Accenture’s UK, Ireland and Africa busin
 company: Accenture
 includeInBreadcrumbs: true
 tags: member
-image: shaheen-sayed.jpg
+image: shaheen-sayed-2.jpg
 ---
 
 <div class="govuk-grid-row">
