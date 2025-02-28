@@ -6,6 +6,7 @@ summary: Rick Lee has been Chief People Officer at Willmott Dixon since 2007.
 company: Willmott Dixon
 includeInBreadcrumbs: true
 tags: member
+image: rick-lee.jpg
 ---
 
 <div class="govuk-grid-row">
