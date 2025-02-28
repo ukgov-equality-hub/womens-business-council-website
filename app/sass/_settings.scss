@@ -99,15 +99,17 @@ ul.govuk-list.govuk-list--bullet {
   }
 }
 
-.cards-321-up {
+ul.cards-321-up {
   margin-right: -15px;
   margin-left: -15px;
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
 
-  div {
+  li {
     box-sizing: border-box;
     padding: 0 15px 10px 15px;
+    list-style-type: none;
 
     width: 100%;
     @media (min-width: 450px) {
@@ -116,7 +118,11 @@ ul.govuk-list.govuk-list--bullet {
     @media (min-width: 750px) {
       width: 33.3333333333%;
     }
+  }
+}
 
+ul.cards-with-coloured-bar-on-top {
+  li {
     &::before {
       content: "";
       background-color: $govuk-brand-colour;
@@ -131,9 +137,14 @@ ul.govuk-list.govuk-list--bullet {
   .member-summary {
     .member-image-link {
       display: block;
+      text-align: center;
     }
 
     img {
+      max-width: min(250px, 100%);
+      @media (min-width: 750px) {
+        max-width: min(300px, 100%);
+      }
       border-radius: 50%;
   
       object-fit: cover;

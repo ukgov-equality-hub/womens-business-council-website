@@ -28,8 +28,8 @@ main header {
     <img src="/images/hero-4.jpg">
 </div>
 
-<div class="cards-321-up govuk-!-margin-top-6">
-    <div>
+<ul class="cards-321-up cards-with-coloured-bar-on-top govuk-!-margin-top-6">
+    <li>
         <p>
             <a href="/about/">
                 About the WBC
@@ -38,8 +38,8 @@ main header {
         <p>
             Information about our history and our current objectives.
         </p>
-    </div>
-    <div>
+    </li>
+    <li>
         <p>
             <a href="/members/">
                 WBC members
@@ -48,8 +48,8 @@ main header {
         <p>
             Biographies of WBC members.
         </p>
-    </div>
-    <div>
+    </li>
+    <li>
         <p>
             <a href="/resources/">
                 Resources
@@ -58,5 +58,5 @@ main header {
         <p>
             Links to our work, including reports and case studies.
         </p>
-    </div>
-</div>
+    </li>
+</ul>
