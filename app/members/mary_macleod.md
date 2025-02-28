@@ -6,7 +6,7 @@ summary: Mary Macleod has been CEO of Business in the Community since January 20
 company: Business in the Community
 includeInBreadcrumbs: true
 tags: member, chair
-image: mary-macleod.jpg
+image: mary-macleod.jpeg
 ---
 
 <div class="govuk-grid-row">
