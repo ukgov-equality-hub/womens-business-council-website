@@ -6,6 +6,7 @@ summary: James Hadley is a senior partner at Bain & Company and has been UK Mana
 company: Bain & Company
 includeInBreadcrumbs: true
 tags: member
+image: james-hadley.png
 ---
 
 <div class="govuk-grid-row">
