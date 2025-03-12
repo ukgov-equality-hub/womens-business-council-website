@@ -39,6 +39,12 @@ variable "dns_record_root_domain_including_dot" {
   description = "The root domain (including dot - e.g. 'dev.' or just '' for production) for the root domain redirect"
 }
 
+variable "prevent_email_spoofing" {
+  type = bool
+  description = "Should terraform create DNS records to prevent email spoofing (only required for the prod environment)"
+  default = false
+}
+
 
 // SECRETS
 // These variables are set in GitHub Actions environment-specific secrets

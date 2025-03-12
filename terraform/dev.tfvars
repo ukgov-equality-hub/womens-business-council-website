@@ -7,3 +7,5 @@ dns_record_subdomain_including_dot = "dev."
 
 create_redirect_from_root_domain = false
 dns_record_root_domain_including_dot = ""
+
+prevent_email_spoofing = false
