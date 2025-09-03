@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Mary Macleod
-role: Chair
+role: Partner and Chair, Board & CEO Practice
 summary: Mary Macleod is Partner and Chair, Board & CEO Practice at August Leadership.
 company: August Leadership
 includeInBreadcrumbs: true
