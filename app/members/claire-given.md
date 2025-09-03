@@ -13,7 +13,7 @@ order: 4
 <div class="govuk-grid-row">
   <div class="govuk-grid-column-two-thirds">
   
-Claire Given has been the Chief Executive Officer at Equipmii since 2023.
+Claire Given has been the Chief Executive Officer at Equipmii since 2023. Equipmii is a leader in accessibility services, helping companies and designers build accessibility in from the start to create products that work for everyone.
 
 Claire has over 12 years of entrepreneurial experience in building businesses that drive meaningful societal and economic impact. In 2025, she was awarded the Women in Innovation Award for her pioneering work with Equipmii to improve accessibility and enhance the experience of disabled consumers.
 
