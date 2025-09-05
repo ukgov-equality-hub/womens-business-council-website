@@ -1,4 +1,4 @@
-name: 'Terraform (production)'
+name: 'Terraform, build, deploy (production)'
 
 on: workflow_dispatch
 
@@ -8,6 +8,7 @@ jobs:
   terraform_build_deploy:
     uses: ./.github/workflows/_deploy-shared.yml
     with:
+      GITHUB_ACTIONS_ENVIRONMENT: Prod
       TERRAFORM_STATE_BUCKET: uk-gov-equality-hub-terraform-state-bucket
       TERRAFORM_STATE_FILE: wbc-website_prod.tfstate
       TERRAFORM_TFVARS_FILE: prod.tfvars
