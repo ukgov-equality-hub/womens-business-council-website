@@ -11,7 +11,7 @@ The WBC is a government-backed, business-led initiative which reports to the Min
  
 ## Objectives
 
-The WBC will be driving forward agreed work programmes that support women’s pay, progression, and productivity. This will support the government's growth mission and the forthcoming industrial strategy.
+The WBC will be driving forward agreed work programmes that support women’s pay, progression, and productivity. This will support the government's [growth mission](https://www.gov.uk/missions/economic-growth) and the [industrial strategy](https://www.gov.uk/government/publications/industrial-strategy).
 
 ## Council members
 
