@@ -22,7 +22,7 @@ main header {
             The WBC is a business-led initiative, with senior leaders who strive to boost women’s representation in the workplace, helping to boost productivity, innovation and competitiveness.
         </p>
         <p>
-            The WBC is chaired by Mary Macleod, chief executive of Business in the Community.
+            The WBC is chaired by Mary Macleod, Chair, Board & CEO Practice, August Leadership.
         </p>
     </div>
     <img src="/images/hero-4.jpg">
